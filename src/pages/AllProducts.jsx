@@ -8,7 +8,7 @@ export default function Card({ data }) {
       <h1 style={{ color: "white" }}>All Products</h1>
       <div style={{ gap: "10px" }} className="row">
         {data.map((item, index) => {
-          console.log(item);
+          // console.log(item);
 
           return (
             <div

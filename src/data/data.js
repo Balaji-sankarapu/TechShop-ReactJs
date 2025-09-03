@@ -53,7 +53,7 @@ import jbl500bt from "../assets/jbl500bt-1.png"
 import boat381 from "../assets/boat381-1.png"
 import sonyex14ap from"../assets/sony-ex14ap-1.png"
 import sonyxb400 from "../assets/sonyxb400-1.png"
-const data = [
+const products = [
     {
         id: 1,
         tag: "hero-product",
@@ -497,4 +497,4 @@ const data = [
     },
 ];
 
-export default data;
+export default products;
