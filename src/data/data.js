@@ -11,49 +11,70 @@ import boat131_2 from '../assets/boat131-2.png'
 import boat131_3 from '../assets/boat131-3.png'
 import boat131_4 from '../assets/boat131-4.png'
 import boat110 from '../assets/boat110-1.png'
-import boat110_2 from '../assets/boat110-1.png'
-import boat110_3 from '../assets/boat110-1.png'
-import boat110_4 from '../assets/boat110-1.png'
+import boat110_2 from '../assets/boat110-2.png'
+import boat110_3 from '../assets/boat110-3.png'
+import boat110_4 from '../assets/boat110-3.png'
 import boat410 from '../assets/boat410-1.png'
-import boat410_2 from '../assets/boat410-1.png'
-import boat410_3 from '../assets/boat410-1.png'
-import boat410_4 from '../assets/boat410-1.png'
+import boat410_2 from '../assets/boat410-2.png'
+import boat410_3 from '../assets/boat410-3.png'
+import boat410_4 from '../assets/boat410-4.png'
 import jbl200bt from '../assets/jbl200bt-1.png'
-import jbl200bt_2 from '../assets/jbl200bt-1.png'
-import jbl200bt_3 from '../assets/jbl200bt-1.png'
-import jbl200bt_4 from '../assets/jbl200bt-1.png'
-import sonyxb910n from '../assets/sonyXb400-1.png'
-import sonyxb910n_2 from '../assets/sonyXb400-1.png'
-import sonyxb910n_3 from '../assets/sonyXb400-1.png'
-import sonyxb910n_4 from '../assets/sonyXb400-1.png'
+import jbl200bt_2 from '../assets/jbl200bt-2.png'
+import jbl200bt_3 from '../assets/jbl200bt-3.png'
+import jbl200bt_4 from '../assets/jbl200bt-4.png'
+import sonyxb910n from '../assets/sonyXb910n-1.png'
+import sonyxb910n_2 from '../assets/sonyXb910n-2.png'
+import sonyxb910n_3 from '../assets/sonyXb910n-3.png'
+import sonyxb910n_4 from '../assets/sonyXb910n-4.png'
 import jbl760nc from "../assets/jbl760nc-1.png"
-import jbl760nc_2 from "../assets/jbl760nc-1.png"
-import jbl760nc_3 from "../assets/jbl760nc-1.png"
-import jbl760nc_4 from "../assets/jbl760nc-1.png"
+import jbl760nc_2 from "../assets/jbl760nc-2.png"
+import jbl760nc_3 from "../assets/jbl760nc-3.png"
+import jbl760nc_4 from "../assets/jbl760nc-4.png"
 import boat255r from "../assets/boat255r-1.png"
-import boat255r_2 from "../assets/boat255r-1.png"
-import boat255r_3 from "../assets/boat255r-1.png"
-import boat255r_4 from "../assets/boat255r-1.png"
+import boat255r_2 from "../assets/boat255r-2.png"
+import boat255r_3 from "../assets/boat255r-3.png"
+import boat255r_4 from "../assets/boat255r-4.png"
 import jbl100 from "../assets/jbl100-1.png"
-import jbl100_2 from "../assets/jbl100-1.png"
-import jbl100_3 from "../assets/jbl100-1.png"
-import jbl100_4 from "../assets/jbl100-1.png"
+import jbl100_2 from "../assets/jbl100-2.png"
+import jbl100_3 from "../assets/jbl100-3.png"
+import jbl100_4 from "../assets/jbl100-4.png"
 import sony1000xm4 from "../assets/sony1000xm4-1.png"
-import sony1000xm4_2 from "../assets/sony1000xm4-1.png"
-import sony1000xm4_3 from "../assets/sony1000xm4-1.png"
-import sony1000xm4_4 from "../assets/sony1000xm4-1.png"
+import sony1000xm4_2 from "../assets/sony1000xm4-2.png"
+import sony1000xm4_3 from "../assets/sony1000xm4-3.png"
+import sony1000xm4_4 from "../assets/sony1000xm4-4.png"
 import boat228 from "../assets/boat228-1.png"
-import boat228_2 from "../assets/boat228-1.png"
-import boat228_3 from "../assets/boat228-1.png"
-import boat228_4 from "../assets/boat228-1.png"
+import boat228_2 from "../assets/boat228-2.png"
+import boat228_3 from "../assets/boat228-3.png"
+import boat228_4 from "../assets/boat228-4.png"
 import jblendu from "../assets/jbl-endu-1.png"
+import jblendu_2 from "../assets/jbl-endu-2.png"
+import jblendu_3 from "../assets/jbl-endu-3.png"
+import jblendu_4 from "../assets/jbl-endu-4.png"
 import boat203 from "../assets/boat203-1.png"
+import boat203_2 from "../assets/boat203-2.png"
+import boat203_3 from "../assets/boat203-3.png"
+import boat203_4 from "../assets/boat203-4.png"
 import sonych710n from "../assets/sonych710n-1.png"
+import sonych710n_2 from "../assets/sonych710n-2.png"
+import sonych710n_3 from "../assets/sonych710n-3.png"
+import sonych710n_4 from "../assets/sonych710n-4.png"
 import jbl500bt from "../assets/jbl500bt-1.png"
+import jbl500bt_2 from "../assets/jbl500bt-2.png"
+import jbl500bt_3 from "../assets/jbl500bt-3.png"
+import jbl500bt_4 from "../assets/jbl500bt-4.png"
 import boat381 from "../assets/boat381-1.png"
+import boat381_2 from "../assets/boat381-2.png"
+import boat381_3 from "../assets/boat381-3.png"
+import boat381_4 from "../assets/boat381-4.png"
 import sonyex14ap from"../assets/sony-ex14ap-1.png"
+import sonyex14ap_2 from"../assets/sony-ex14ap-2.png"
+import sonyex14ap_3 from"../assets/sony-ex14ap-3.png"
+import sonyex14ap_4 from"../assets/sony-ex14ap-4.png"
 import sonyxb400 from "../assets/sonyxb400-1.png"
-const products = [
+import sonyxb400_2 from "../assets/sonyxb400-2.png"
+import sonyxb400_3 from "../assets/sonyxb400-3.png"
+import sonyxb400_4 from "../assets/sonyxb400-4.png"
+const data = [
     {
         id: 1,
         tag: "hero-product",
@@ -342,12 +363,13 @@ const products = [
     {
         id: 13,
         tag: "featured-product",
+        heroImage:jblendu,
         image:jblendu,
         images: [
-            "../assets/jbl-endu-1.png",
-            "../assets/jbl-endu-2.png",
-            "../assets/jbl-endu-3.png",
-            "../assets/jbl-endu-4.png",
+            jblendu,
+            jblendu_2,
+            jblendu_3,
+            jblendu_4
         ],
         brand: "JBL",
         title: "JBL Endurance Run Sports",
@@ -366,11 +388,12 @@ const products = [
         id: 14,
         tag: "featured-product",
         image:boat203,
+        heroImage:boat203,
         images: [
-            "../assets/boat203-1.png",
-            "../assets/boat203-2.png",
-            "../assets/boat203-3.png",
-            "../assets/boat203-4.png",
+            boat203,
+            boat203_2,
+            boat203_3,
+            boat203_4,
         ],
         brand: "boAt",
         title: "boAt Airdopes 203",
@@ -388,11 +411,12 @@ const products = [
     {
         id: 15,
         image:sonych710n,
+        heroImage:sonych710n,
         images: [
-            "../assets/sonych710n-1.png",
-            "../assets/sonych710n-2.png",
-            "../assets/sonych710n-3.png",
-            "../assets/sonych710n-4.png",
+            sonych710n,
+            sonych710n_2,
+            sonych710n_3,
+            sonych710n_4,
         ],
         brand: "Sony",
         title: "Sony WH-CH710N",
@@ -410,11 +434,12 @@ const products = [
     {
         id: 16,
         image:jbl500bt,
+        heroImage:jbl500bt,
         images: [
-            "../assets/jbl500bt-1.png",
-            "../assets/jbl500bt-2.png",
-            "../assets/jbl500bt-3.png",
-            "../assets/jbl500bt-4.png",
+            jbl500bt,
+            jbl500bt_2,
+            jbl500bt_3,
+            jbl500bt_4,
         ],
         brand: "JBL",
         title: "JBL Tune 500BT",
@@ -432,11 +457,12 @@ const products = [
     {
         id: 17,
         image:boat381,
+        heroImage:boat381,
         images: [
-            "../assets/boat381-1.png",
-            "../assets/boat381-2.png",
-            "../assets/boat381-3.png",
-            "../assets/boat381-4.png",
+            boat381,
+            boat381_2,
+            boat381_3,
+            boat381_4,
         ],
         brand: "boAt",
         title: "boAt Airdopes 381",
@@ -454,11 +480,12 @@ const products = [
     {
         id: 18,
         image:sonyex14ap,
+        heroImage:sonyex14ap,
         images: [
-            "../assets/sony-ex14ap-1.png",
-            "../assets/sony-ex14ap-2.png",
-            "../assets/sony-ex14ap-3.png",
-            "../assets/sony-ex14ap-4.png"
+            sonyex14ap,
+            sonyex14ap_2,
+            sonyex14ap_3,
+            sonyex14ap_4
         ],
         brand: "Sony",
         title: "Sony MDR-EX14AP",
@@ -476,11 +503,12 @@ const products = [
     {
         id: 19,
         image:sonyxb400,
+        heroImage:sonyxb400,
         images: [
-            "../assets/sonyxb400-1.png",
-            "../assets/sonyxb400-2.png",
-            "../assets/sonyxb400-3.png",
-            "../assets/sonyxb400-4.png",
+            sonyxb400,
+            sonyxb400_2,
+            sonyxb400_3,
+            sonyxb400_4,
         ],
         brand: "Sony",
         title: "Sony WI-XB400",
@@ -497,4 +525,4 @@ const products = [
     },
 ];
 
-export default products;
+export default data;

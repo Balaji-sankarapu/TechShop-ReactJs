@@ -4,14 +4,14 @@ import boat131 from "../assets/boat131-1.png";
 import Xb910n from "../assets/sonyXb910n-1.png";
 import jbl660nc from "../assets/jbl660nc-1.png";
 import boat518 from "../assets/boat518-1.png";
-import boat110 from '../assets/boat110-1.png'
-import boat410 from '../assets/boat410-1.png'
-import jbl200 from '../assets/jbl200bt-1.png'
-import sonyxb910 from '../assets/sonyXb910n-1.png'
-import jbl760 from '../assets/jbl760nc-1.png'
-import boat255 from '../assets/boat255r-1.png'
-import jbl100 from "../assets/jbl100-1.png"
-import sony1000 from '../assets/sony1000xm4-1.png'
+import boat110 from "../assets/boat110-1.png";
+import boat410 from "../assets/boat410-1.png";
+import jbl200 from "../assets/jbl200bt-1.png";
+import sonyxb910 from "../assets/sonyXb910n-1.png";
+import jbl760 from "../assets/jbl760nc-1.png";
+import boat255 from "../assets/boat255r-1.png";
+import jbl100 from "../assets/jbl100-1.png";
+import sony1000 from "../assets/sony1000xm4-1.png";
 import { Link } from "react-router-dom";
 import { IoStarSharp } from "react-icons/io5";
 import { FaTruckFast } from "react-icons/fa6";
@@ -139,12 +139,12 @@ export default function Home() {
               </Link>
             </div>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title text-white">JBL Live 660NC</span>
               <br />
@@ -173,12 +173,12 @@ export default function Home() {
               <img className="card-img" src={boat518} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title text-white">boAt Rockerz 518</span>
               <br />
@@ -207,12 +207,12 @@ export default function Home() {
               <img className="card-img" src={boat131} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title">boAt Airdopes 131</span>
               <br />
@@ -239,12 +239,12 @@ export default function Home() {
               <img className="card-img" src={boat110} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title">boAt Airdopes 131</span>
               <br />
@@ -265,24 +265,27 @@ export default function Home() {
             </div>
           </div>
           {/* ---------------Fourth card end--------------- */}
-        </div><br />
+        </div>
+        <br />
         {/* ----------------first row end------------------ */}
         <div style={{ display: "flex", justifyContent: "space-evenly" }}>
           {/* <!--------------------------------- Second Row Start --------------------------------------------->
                 <!-------------- First Card Start -------------> */}
           <div className="card-row">
             <div style={{ textAlign: "center" }}>
-              <Link href="Product Details.html" style={{ textDecoration: "none" }}>
+              <Link
+                href="Product Details.html"
+                style={{ textDecoration: "none" }}>
                 <img className="card-img" src={boat410} alt="" />
               </Link>
             </div>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title text-white">JBL Live 660NC</span>
               <br />
@@ -311,12 +314,12 @@ export default function Home() {
               <img className="card-img" src={jbl200} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title text-white">boAt Rockerz 518</span>
               <br />
@@ -345,12 +348,12 @@ export default function Home() {
               <img className="card-img" src={sonyxb910} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title">boAt Airdopes 131</span>
               <br />
@@ -377,12 +380,12 @@ export default function Home() {
               <img className="card-img" src={jbl760} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title">boAt Airdopes 131</span>
               <br />
@@ -411,17 +414,19 @@ export default function Home() {
                 <!-------------- First Card Start -------------> */}
           <div className="card-row">
             <div style={{ textAlign: "center" }}>
-              <Link href="Product Details.html" style={{ textDecoration: "none" }}>
+              <Link
+                href="Product Details.html"
+                style={{ textDecoration: "none" }}>
                 <img className="card-img" src={boat255} alt="" />
               </Link>
             </div>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title text-white">JBL Live 660NC</span>
               <br />
@@ -450,12 +455,12 @@ export default function Home() {
               <img className="card-img" src={jbl100} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title text-white">boAt Rockerz 518</span>
               <br />
@@ -484,12 +489,12 @@ export default function Home() {
               <img className="card-img" src={sony1000} alt="" />
             </Link>
             <div style={{ marginLeft: "10px" }}>
-              <div style={{display:"flex"}}>
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
-                <IoStarSharp style={{color: "#ff4500"}} />
+              <div style={{ display: "flex" }}>
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
+                <IoStarSharp style={{ color: "#ff4500" }} />
               </div>
               <span className="card-title">boAt Airdopes 131</span>
               <br />
@@ -525,15 +530,21 @@ export default function Home() {
         <br />
         {/* <!--------------------------------- Cards End ---------------------------------->
 
-            <!----------------- Advantages ------------------> */}
-        <h1 style={{color:"white"}}>Our Advantages</h1>
+        <!----------------- Advantages ------------------> */}
+        <h1 style={{ color: "white" }}>Our Advantages</h1>
         <br />
         <br />
         <div style={{ display: "flex", justifyContent: "space-evenly" }}>
           {/* <!----------------- First Advantage End ------------------> */}
           <div class="adv-container">
             <span style={{ marginTop: "15px" }}>
-              <FaTruckFast style={{ color: "#ff4500", marginTop: "-8px", fontSize:'35px'}} />
+              <FaTruckFast
+                style={{
+                  color: "#ff4500",
+                  marginTop: "-8px",
+                  fontSize: "35px",
+                }}
+              />
             </span>
             <span class="adv">
               Express Delhivery <br />
@@ -551,7 +562,13 @@ export default function Home() {
               justifyContent: "center",
             }}>
             <span style={{ marginTop: "15px" }}>
-              <FaShieldAlt style={{ color: "#ff4500", marginTop: "-8px", fontSize:'30px'}}/>
+              <FaShieldAlt
+                style={{
+                  color: "#ff4500",
+                  marginTop: "-8px",
+                  fontSize: "30px",
+                }}
+              />
             </span>
             <span class="adv">
               Brand Warranty <br />
@@ -569,7 +586,13 @@ export default function Home() {
               justifyContent: "center",
             }}>
             <span style={{ marginTop: "15px" }}>
-              <FaTags style={{ color: "#ff4500", marginTop: "-5px", fontSize:'35px'}}/>
+              <FaTags
+                style={{
+                  color: "#ff4500",
+                  marginTop: "-5px",
+                  fontSize: "35px",
+                }}
+              />
             </span>
             <span class="adv">
               Exciting Deals
@@ -588,7 +611,13 @@ export default function Home() {
               justifyContent: "space-between",
             }}>
             <span style={{ marginTop: "15px" }}>
-              <FaCreditCard style={{ color: "#ff4500", marginTop: "-5px", fontSize:'35px'}}/>
+              <FaCreditCard
+                style={{
+                  color: "#ff4500",
+                  marginTop: "-5px",
+                  fontSize: "35px",
+                }}
+              />
             </span>
             <span class="adv">
               Secure Payments
