@@ -22,7 +22,7 @@ export default function Card({ data }) {
                 <h5 className="card-title text-white">
                   {item.tagline || item.title}
                 </h5>
-                <p className="card-text">{item.info}</p>
+                <p className="card-text" style={{textDecoration:'none'}}>{item.info}</p>
                 <div style={{ color: "#ff9500", display: "flex", gap: "3px" }}>
                   {[...Array(item.rateCount)].map((_, i) => (
                     <IoStarSharp style={{ color: "#ff4500" }} key={i} />
@@ -38,7 +38,7 @@ export default function Card({ data }) {
                 <button
                   style={{ textAlign: "center" }}
                   className="rounded p-1 w-75 bg-[#ff4500] text-white">
-                  Enroll Now
+                  Add to Cart
                 </button>
               </div>
             </div>

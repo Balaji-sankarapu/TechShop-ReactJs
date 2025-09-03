@@ -1,6 +1,15 @@
 import jbl660nc from '../assets/jbl660nc-1.png'
+import jbl660nc_2 from '../assets/jbl660nc-2.png'
+import jbl660nc_3 from '../assets/jbl660nc-3.png'
+import jbl660nc_4 from '../assets/jbl660nc-4.png'
 import boat518 from '../assets/boat518-1.png'
+import boat518_2 from '../assets/boat518-2.png'
+import boat518_3 from '../assets/boat518-3.png'
+import boat518_4 from '../assets/boat518-4.png'
 import boat131 from '../assets/boat131-1.png'
+import boat131_2 from '../assets/boat131-2.png'
+import boat131_3 from '../assets/boat131-3.png'
+import boat131_4 from '../assets/boat131-4.png'
 import boat110 from '../assets/boat110-1.png'
 import boat410 from '../assets/boat410-1.png'
 import jbl200bt from '../assets/jbl200bt-1.png'
@@ -23,12 +32,12 @@ const data = [
         tag: "hero-product",
         tagline: "Keep the noise out, or in. You choose.",
         image:jbl660nc,
-        heroImage: "../assets/jbl660nc-1.png",
+        heroImage:jbl660nc,
         images: [
-            "../assets/jbl660nc-1.png",
-            "../assets/jbl660nc-2.png",
-            "../assets/jbl660nc-3.png",
-            "../assets/jbl660nc-4.png",
+            jbl660nc,
+            jbl660nc_2,
+            jbl660nc_3,
+            jbl660nc_4,
         ],
         brand: "JBL",
         title: "JBL Live 660NC",
@@ -47,11 +56,12 @@ const data = [
         id: 2,
         tag: "featured-product",
         image:boat518,
+        heroImage:boat518,
         images: [
-            "../assets/boat518-1.png",
-            "../assets/boat518-2.png",
-            "../assets/boat518-3.png",
-            "../assets/boat518-4.png"
+            boat518,
+            boat518_2,
+            boat518_3,
+            boat518_4
         ],
         brand: "boAt",
         title: "boAt Rockerz 518",

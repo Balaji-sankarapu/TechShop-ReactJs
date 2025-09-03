@@ -10,7 +10,7 @@ export default function Navigation() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/allproducts" element={<AllProducts data={data}/>}/>
-      <Route path="/productdetails/:id" element={<ProductDetails/>}/>
+      <Route path="/productdetails/:id" element={<ProductDetails data={data}/>}/>
     </Routes>
   );
 }

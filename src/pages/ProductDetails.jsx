@@ -1,24 +1,27 @@
 import React from "react";
 import '../modulecss/productdetails.css'
 
-export default function ProductDetails() {
-  return (
-    <div className="bg-dark">
+export default function ProductDetails({data}) {
+  return(
+    <div>
+      {data.map((item,index)=>{
+          return (
+    <div className="bg-dark" key={index}>
       <div class="prod-cont">
         <div>
-          <img class="horiz-images" src="./Images/jbl660nc-1.png" alt="" />
+          <img class="horiz-images" src={item.images[0]} alt={item.title} />
           <br />
-          <img class="horiz-images" src="./Images/jbl660nc-2.png" alt="" />
+          <img class="horiz-images" src={item.images[1]} alt={item.title} />
           <br />
-          <img class="horiz-images" src="./Images/jbl660nc-3.png" alt="" />
+          <img class="horiz-images" src={item.images[2]} alt={item.title} />
           <br />
-          <img class="horiz-images" src="./Images/jbl660nc-4.png" alt="" />
+          <img class="horiz-images" src={item.images[3]} alt={item.title} />
         </div>
         <div>
           <img
             style={{ width: "700px" }}
-            src="./Images/jbl660nc-1.png"
-            alt=""
+            src={item.heroImage}
+            alt={item.title}
           />
         </div>
         <div style={{ width: "500px", marginLeft: "150px" }}>
@@ -112,7 +115,7 @@ export default function ProductDetails() {
         <div class="card-row">
           <div style={{ textAlign: "center" }}>
             <a href="Product Details.html" style={{ textDecoration: "none" }}>
-              <img class="card-img" src="./Images/jbl660nc-1.png" alt="" />
+              <img class="card-img" src="./Images/jbl660nc-1.png" alt={item.title} />
             </a>
           </div>
           <div style={{ marginLeft: "10px" }}>
@@ -144,7 +147,7 @@ export default function ProductDetails() {
                 <!-------------- Second Card Start -------------> */}
         <div class="card-row">
           <div style={{ textAlign: "center" }}>
-            <img class="card-img" src="./Images/boat518-1.png" alt="" />
+            <img class="card-img" src="./Images/boat518-1.png" alt={item.title} />
           </div>
           <div style={{ marginLeft: "10px" }}>
             <div>
@@ -177,7 +180,7 @@ export default function ProductDetails() {
                 <!-------------- Third Card Start -------------> */}
         <div class="card-row">
           <div style={{ textAlign: "center" }}>
-            <img class="card-img" src="./Images/boat131-1.png" alt="" />
+            <img class="card-img" src="./Images/boat131-1.png" alt={item.title} />
           </div>
           <div style={{ marginLeft: "10px" }}>
             <div>
@@ -210,7 +213,7 @@ export default function ProductDetails() {
                 <!-------------- Fourth Card Start -------------> */}
         <div class="card-row">
           <div style={{ textAlign: "center" }}>
-            <img class="card-img" src="./Images/boat110-1.png" alt="" />
+            <img class="card-img" src="./Images/boat110-1.png" alt={item.title} />
           </div>
           <div style={{ marginLeft: "10px" }}>
             <div>
@@ -243,4 +246,8 @@ export default function ProductDetails() {
       </div>
     </div>
   );
+
+      })}
+    </div>
+  )
 }
