@@ -1,5 +1,7 @@
 import React from "react";
 import '../modulecss/productdetails.css'
+import '../data/data'
+import { IoStarSharp } from "react-icons/io5";
 
 export default function ProductDetails({data}) {
   return(
@@ -25,25 +27,23 @@ export default function ProductDetails({data}) {
           />
         </div>
         <div style={{ width: "500px", marginLeft: "150px" }}>
-          <h3>JBL Live 660NC</h3>
-          <p>Wireless Over-Ear NC Headphones</p>
-          <span>
-            <i class="fa-solid fa-star" style={{ color: "#ff4500" }}></i>
-            <i class="fa-solid fa-star" style={{ color: "#ff4500" }}></i>
-            <i class="fa-solid fa-star" style={{ color: "#ff4500" }}></i>
-            <i class="fa-solid fa-star" style={{ color: "#ff4500" }}></i>
-            <i class="fa-solid fa-star" style={{ color: "#ff4500" }}></i>
-            <span>| 1234 Ratings</span>
+          <h3 style={{color:"white"}}>{item.title}</h3>
+          <p>{item.info}</p>
+          <span style={{display:"flex"}}>
+            <div style={{ color: "#ff9500", display: "flex", gap: "3px",marginTop:"5px" }}>
+              {[...Array(item.rateCount)].map((_, i) => (
+                <IoStarSharp style={{ color: "#ff4500" }} key={i} />
+              ))}
+            </div>
+            <div style={{color:"white", marginLeft:"5px"}}> | 1234 Ratings</div>
           </span>
           <hr style={{ width: "100%" }} />
           <div class="product-deta">
             <div>
-              <p id="prod-price" class="card-text">
-                ₹9,999
-              </p>
-              <p class="card-text">₹14,999</p>
+              <p id="prod-price" class="card-text">₹{item.finalPrice}</p>
+              <p class="card-text">₹{item.originalPrice} </p>
               <br />
-              <p class="prod-off">You save: ₹5,00 (33%)</p>
+              <p class="prod-off">You save: {item.originalPrice-item.finalPrice} ({Math.floor(((item.originalPrice-item.finalPrice)/(item.originalPrice))*100)}%) </p>
               <p>(Inclusive of all taxes)</p>
             </div>
             <div>
@@ -53,15 +53,15 @@ export default function ProductDetails({data}) {
               </button>
             </div>
           </div>
-          <hr style={{ width: "100%" }} />
+          <hr style={{ width: "100%",color:"white" }} />
           <br />
-          <h5>Offers And Discounts</h5>
+          <h3 style={{color:"white"}}>Offers And Discounts</h3>
           <br />
           <div style={{ display: "flex", gap: "0 20px" }}>
             <p class="prod-spec">No Cost EMI on Credit Card</p>
             <p class="prod-spec">Pay Later & Avail Cashback</p>
           </div>
-          <hr style={{ width: "100%" }} />
+          <hr style={{ width: "100%",color:"white" }} />
           <button class="prod-cartbutt">Add to Cart</button>
         </div>
       </div>
@@ -78,28 +78,28 @@ export default function ProductDetails({data}) {
 
       <div style={{ margin: "30px" }}>
         <div class="item-speci">
-          <h5 style={{ fontWeight: "300" }}>Brand</h5>
-          <h5 style={{ fontWeight: "300" }}>JBL</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>Brand</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>{item.brand}</h5>
         </div>
         <div class="item-speci">
-          <h5 style={{ fontWeight: "300" }}>Model</h5>
-          <h5 style={{ fontWeight: "300" }}>JBL Live 660NC</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>Model</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>{item.title}</h5>
         </div>
         <div class="item-speci">
-          <h5 style={{ fontWeight: "300" }}>Generic Name</h5>
-          <h5 style={{ fontWeight: "300" }}>Headphones</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>Generic Name</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>{item.category}</h5>
         </div>
         <div class="item-speci">
-          <h5 style={{ fontWeight: "300" }}>Headphone Type</h5>
-          <h5 style={{ fontWeight: "300" }}>Over Ear</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>Headphone Type</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>{item.type}</h5>
         </div>
         <div class="item-speci">
-          <h5 style={{ fontWeight: "300" }}>Connectivity</h5>
-          <h5 style={{ fontWeight: "300" }}>Wireless</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>Connectivity</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>{item.connectivity}</h5>
         </div>
         <div class="item-speci">
-          <h5 style={{ fontWeight: "300" }}>Microphone</h5>
-          <h5 style={{ fontWeight: "300" }}>Yes</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>Microphone</h5>
+          <h5 style={{ fontWeight: "300",color:"white" }}>Yes</h5>
         </div>
       </div>
       <br />

@@ -11,14 +11,41 @@ import boat131_2 from '../assets/boat131-2.png'
 import boat131_3 from '../assets/boat131-3.png'
 import boat131_4 from '../assets/boat131-4.png'
 import boat110 from '../assets/boat110-1.png'
+import boat110_2 from '../assets/boat110-1.png'
+import boat110_3 from '../assets/boat110-1.png'
+import boat110_4 from '../assets/boat110-1.png'
 import boat410 from '../assets/boat410-1.png'
+import boat410_2 from '../assets/boat410-1.png'
+import boat410_3 from '../assets/boat410-1.png'
+import boat410_4 from '../assets/boat410-1.png'
 import jbl200bt from '../assets/jbl200bt-1.png'
+import jbl200bt_2 from '../assets/jbl200bt-1.png'
+import jbl200bt_3 from '../assets/jbl200bt-1.png'
+import jbl200bt_4 from '../assets/jbl200bt-1.png'
 import sonyxb910n from '../assets/sonyXb400-1.png'
+import sonyxb910n_2 from '../assets/sonyXb400-1.png'
+import sonyxb910n_3 from '../assets/sonyXb400-1.png'
+import sonyxb910n_4 from '../assets/sonyXb400-1.png'
 import jbl760nc from "../assets/jbl760nc-1.png"
+import jbl760nc_2 from "../assets/jbl760nc-1.png"
+import jbl760nc_3 from "../assets/jbl760nc-1.png"
+import jbl760nc_4 from "../assets/jbl760nc-1.png"
 import boat255r from "../assets/boat255r-1.png"
+import boat255r_2 from "../assets/boat255r-1.png"
+import boat255r_3 from "../assets/boat255r-1.png"
+import boat255r_4 from "../assets/boat255r-1.png"
 import jbl100 from "../assets/jbl100-1.png"
+import jbl100_2 from "../assets/jbl100-1.png"
+import jbl100_3 from "../assets/jbl100-1.png"
+import jbl100_4 from "../assets/jbl100-1.png"
 import sony1000xm4 from "../assets/sony1000xm4-1.png"
+import sony1000xm4_2 from "../assets/sony1000xm4-1.png"
+import sony1000xm4_3 from "../assets/sony1000xm4-1.png"
+import sony1000xm4_4 from "../assets/sony1000xm4-1.png"
 import boat228 from "../assets/boat228-1.png"
+import boat228_2 from "../assets/boat228-1.png"
+import boat228_3 from "../assets/boat228-1.png"
+import boat228_4 from "../assets/boat228-1.png"
 import jblendu from "../assets/jbl-endu-1.png"
 import boat203 from "../assets/boat203-1.png"
 import sonych710n from "../assets/sonych710n-1.png"
@@ -81,12 +108,12 @@ const data = [
         tag: "hero-product",
         tagline: "Featherweight for comfort all-day.",
         image:boat131,
-        heroImage: "../assets/boat131-3.png",
+        heroImage: boat131_3,
         images: [
-            "../assets/boat131-1.png",
-            "../assets/boat131-2.png",
-            "../assets/boat131-3.png",
-            "../assets/boat131-4.png",
+            boat131,
+            boat131_2,
+            boat131_3,
+            boat131_4,
         ],
         brand: "boAt",
         title: "boAt Airdopes 131",
@@ -104,11 +131,12 @@ const data = [
     {
         id: 4,
         image:boat110,
+        heroImage:boat110,
         images: [
-            "../assets/boat110-1.png",
-            "../assets/boat110-2.png",
-            "../assets/boat110-3.png",
-            "../assets/boat110-4.png",
+            boat110,
+            boat110_2,
+            boat110_3,
+            boat110_4,
         ],
         brand: "boAt",
         title: "boAt BassHeads 110",
@@ -126,11 +154,12 @@ const data = [
     {
         id: 5,
         image:boat410,
+        heroImage:boat410,
         images: [
-            "../assets/boat410-1.png",
-            "../assets/boat410-2.png",
-            "../assets/boat410-3.png",
-            "../assets/boat410-4.png",
+            boat410,
+            boat410_2,
+            boat410_3,
+            boat410_4,
         ],
         brand: "boAt",
         title: "boAt Rockerz 410",
@@ -148,11 +177,12 @@ const data = [
     {
         id: 6,
         image:jbl200bt,
+        heroImage:jbl200bt,
         images: [
-            "../assets/jbl200bt-1.png",
-            "../assets/jbl200bt-2.png",
-            "../assets/jbl200bt-3.png",
-            "../assets/jbl200bt-4.png",
+            jbl200bt,
+            jbl200bt_2,
+            jbl200bt_3,
+            jbl200bt_4,
         ],
         brand: "JBL",
         title: "JBL Live 200BT",
@@ -172,12 +202,12 @@ const data = [
         tag: "hero-product",
         image:sonyxb910n,
         tagline: "Give your favourite music a boost.",
-        heroImage: "../assets/sonyxb910n-1.png",
+        heroImage: sonyxb910n,
         images: [
-            "../assets/sonyxb910n-1.png",
-            "../assets/sonyxb910n-2.png",
-            "../assets/sonyxb910n-3.png",
-            "../assets/sonyxb910n-4.png",
+            sonyxb910n,
+            sonyxb910n_2,
+            sonyxb910n_3,
+            sonyxb910n_4,
         ],
         brand: "Sony",
         title: "Sony WH-XB910N",
@@ -196,11 +226,12 @@ const data = [
         id: 8,
         tag: "featured-product",
         image:jbl760nc,
+        heroImage:jbl760nc,
         images: [
-            "../assets/jbl760nc-1.png",
-            "../assets/jbl760nc-2.png",
-            "../assets/jbl760nc-3.png",
-            "../assets/jbl760nc-4.png",
+            jbl760nc,
+            jbl760nc_2,
+            jbl760nc_3,
+            jbl760nc_4,
         ],
         brand: "JBL",
         title: "JBL Tune 760NC",
@@ -219,11 +250,12 @@ const data = [
         id: 9,
         tag: "featured-product",
         image:boat255r,
+        heroImage:boat255r,
         images: [
-            "../assets/boat255r-1.png",
-            "../assets/boat255r-2.png",
-            "../assets/boat255r-3.png",
-            "../assets/boat255r-4.png",
+            boat255r,
+            boat255r_2,
+            boat255r_3,
+            boat255r_4,
         ],
         brand: "boAt",
         title: "boAt Rockerz 255",
@@ -241,11 +273,12 @@ const data = [
     {
         id: 10,
         image:jbl100,
+        heroImage:jbl100,
         images: [
-            "../assets/jbl100-1.png",
-            "../assets/jbl100-2.png",
-            "../assets/jbl100-3.png",
-            "../assets/jbl100-4.png",
+            jbl100,
+            jbl100_2,
+            jbl100_3,
+            jbl100_4,
         ],
         brand: "JBL",
         title: "JBL Wave 100",
@@ -263,11 +296,12 @@ const data = [
     {
         id: 11,
         image:sony1000xm4,
+        heroImage:sony1000xm4,
         images: [
-            "../assets/sony1000xm4-1.png",
-            "../assets/sony1000xm4-2.png",
-            "../assets/sony1000xm4-3.png",
-            "../assets/sony1000xm4-4.png"
+            sony1000xm4,
+            sony1000xm4_2,
+            sony1000xm4_3,
+            sony1000xm4_4,
         ],
         brand: "Sony",
         title: "Sony WF-1000XM4",
@@ -285,11 +319,12 @@ const data = [
     {
         id: 12,
         image:boat228,
+        heroImage:boat228,
         images: [
-            "../assets/boat228-1.png",
-            "../assets/boat228-2.png",
-            "../assets/boat228-3.png",
-            "../assets/boat228-4.png",
+            boat228,
+            boat228_2,
+            boat228_3,
+            boat228_4,
         ],
         brand: "boAt",
         title: "boAt BassHeads 228",
