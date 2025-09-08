@@ -6,7 +6,7 @@ export default function Card({ data }) {
   return (
     <div className="bg-dark container-fluid">
       <h1 style={{ color: "white" }}>All Products</h1>
-      <div style={{ gap: "10px" }} className="row">
+      <div style={{ gap: "10px",display:"grid",gridTemplateColumns:"repeat(4,1fr)" }} className="row">
         {data.map((item, index) => {
           // console.log(item);
 
@@ -22,7 +22,9 @@ export default function Card({ data }) {
                 <h5 className="card-title text-white">
                   {item.tagline || item.title}
                 </h5>
-                <p className="card-text" style={{textDecoration:'none'}}>{item.info}</p>
+                <p className="card-text" style={{ textDecoration: "none" }}>
+                  {item.info}
+                </p>
                 <div style={{ color: "#ff9500", display: "flex", gap: "3px" }}>
                   {[...Array(item.rateCount)].map((_, i) => (
                     <IoStarSharp style={{ color: "#ff4500" }} key={i} />
@@ -45,6 +47,9 @@ export default function Card({ data }) {
           );
         })}
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
