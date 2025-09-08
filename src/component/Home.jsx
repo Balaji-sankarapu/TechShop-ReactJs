@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../modulecss/index.css";
 import boat131 from "../assets/boat131-1.png";
 import Xb910n from "../assets/sonyXb910n-1.png";
@@ -14,9 +14,30 @@ import jbl100 from "../assets/jbl100-1.png";
 import sony1000 from "../assets/sony1000xm4-1.png";
 import { Link } from "react-router-dom";
 import { IoStarSharp } from "react-icons/io5";
+import data from "../data/data";
 
 
 export default function Home() {
+const handleNext = () => {
+    setCurrentIndex((prev) =>
+      prev === featuredProducts.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  useEffect(() => {
+    const interval = setInterval(handleNext, 2000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const featuredProducts = data.slice(0, 5);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const getVisibleProducts = () => {
+    const visible = [];
+    for (let i = 0; i < 5; i++) {
+      visible.push(featuredProducts[(currentIndex + i) % featuredProducts.length]);
+    }
+    return visible;
+  };
   return (
     <div>
       <div
@@ -123,6 +144,35 @@ export default function Home() {
         </div>
       </div>
       {/* <!--------------------------------- Carousel End -------------------------------------> */}
+{/* -------------Featured Products Start---------------- */}
+        <h1 className="text-center bg-dark text-white mb-0 pt-8">
+          Featured Products
+        </h1>
+
+        <div className="flex items-center justify-center gap-4 bg-dark py-6">
+          <div className="flex items-center gap-6">
+            {getVisibleProducts().map((item, index) => {
+              const middleIndex = Math.floor(5 / 2);
+              const isCenter = index === middleIndex;
+
+              return (
+                <div key={item.id} className={`transition-transform duration-500 ${isCenter ? "scale-110 z-10" : "scale-75 opacity-70"}`}>
+                  <div className="p-4 bg-dark text-white w-40 md:w-48">
+                    <h6 className="font-semibold text-sm md:text-base">{item.title}</h6>
+                    <Link to={`/productdetails/${item.id}`}>
+                      <img src={item.images[0]} alt={item.title} className="w-full h-32 md:h-40 object-contain mb-2"/>
+                    </Link>
+                    <p className="font-bold text-sm md:text-base text-white">₹{item.finalPrice}{" "}
+                      <span className="line-through text-gray-500 text-xs">₹{item.originalPrice}</span>
+                    </p>
+                    
+                  </div>
+                </div>
+              );
+            })}
+            </div>
+          </div>
+{/* Featured Products End */}
 
       {/* <!----------- Cards Start ------------> */}
       <div className="bg-dark">
